@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@700&display=swap');
+
+* {
+    font-family: "Outfit", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0px 120px 40px;
+
+}
+
+.l-header {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.login {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 20px;
+    background: #F70492;
+    color: #ffffff;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.cadastro {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 20px;
+    background: #F70492;
+    color: #ffffff;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.logo {
+    width: 400px;
+    margin-left: 20px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 90px;
+    width: 400px;
+
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 122px;
+
+}
+
+span {
+    color: #F70492;
+}
+
+.p1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 60px;
+
+}
+
+.p2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F70492;
+}
+
+.insta {
+    margin: 15px 20px 15px 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.whats {
+    margin: 15px 20px 15px 5px;
+    color: #ffffff;
+    text-decoration: none;
+    /*renove o underline do link*/
+}
