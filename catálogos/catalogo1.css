@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F70492;
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.l-header{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.login {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 20px;
+    background: #ffffff;
+    color:  #F70492;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.cadastro{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 8px;
+    background: #ffffff;
+    color:  #F70492;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.sessão{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imgcat{
+    max-height: 50%;
+    width: 40%;
+}
+
+.imgSeta{  
+    width: 40px;
+    margin: 0 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F70492;
+}
+
+.insta {
+    margin: 15px 20px 15px 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.whats {
+    margin: 15px 20px 15px 5px;
+    color: #ffffff;
+    text-decoration: none;
+    /*renove o underline do link*/
+}
